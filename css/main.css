@@ -133,8 +133,6 @@ section h2, section h3, section p {
 }
 
 #contact-form {
-  display: flex;
-  position: absolute;
   box-sizing: border-box; 
   background: #323A45;
   color: #F6F7F9;
@@ -209,7 +207,6 @@ section h2, section h3, section p {
 	background-color: #323A45;
 	padding-top: 50px;
 	padding-bottom: 20px;
-  display: flex;
 }
 
 #footer-logo {

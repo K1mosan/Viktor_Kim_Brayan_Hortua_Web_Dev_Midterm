@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  max-width: 1980px;
 }
 
 img, embed, object, video, picture {
@@ -33,4 +34,156 @@ section h2, section h3, section p {
 
 .txt-spacer {
   margin-top: 30px;
+}
+
+.gallery-box {
+	background-color: #F6F7F9;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.18);
+	height: 450px;
+  width: 300px;
+	margin-bottom: 50px;
+}
+
+.gallery-box:hover{
+  background: #323A45;
+  color: #F6F7F9;
+  transition: .6s all;
+}
+
+#contact-text {
+	height: 330px;
+  color: #323A45;
+  font-weight: 400;
+  margin-top: 160px;
+  margin-left: 60px;
+}
+
+#contact-text h1{
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#contact {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#contact-form {
+  display: flex;
+  position: absolute;
+  box-sizing: border-box; 
+  background: #323A45;
+  color: #F6F7F9;
+  width: 450px;
+  height: 500px;
+  border-radius: 35px;
+}
+
+#contact-us-con {
+  text-align: center;
+  justify-content: center;
+}
+
+.block-form{
+  display: flex;
+  justify-content: center;
+}
+
+.input-data{
+  background: #FFFFFF;
+  border: 1px solid #0F0F0F;
+  border-radius: 25px;
+  width: 350px;
+  height: 40px;
+  margin-top: 6px;
+  padding: 12px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.input-data:hover{
+  color: #323A45;
+}
+
+.input-block{
+  width: 210px;
+  height: 40px;
+  margin: 40px;
+}
+
+.input-textaria{
+  background: #FFFFFF;
+  border: 1px solid #0F0F0F;
+  border-radius: 5px;
+  width: 350px;
+  height: 150px;
+  margin-top: 6px;
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.input-textaria:hover{
+  color: #323A45;
+}
+
+#contact-form textarea{
+  background-color: #F6F7F9;
+}
+
+.btn{
+  background: #FFFFFF;
+  color: #323A45;
+  padding: 5px 45px;
+  font-size: 28px;
+  border-radius: 15px;
+  margin: 10px;
+  transition: .6s all;
+}
+
+.btn:hover{
+  background: #3F6184;
+  color: #F6F7F9;
+}
+
+.flex-container {
+  margin: 0 auto;
+  background-color: efefef;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+}
+
+.flexbox {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 100px;
+  margin: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background: #fff;
+  flex: 0 1 calc(100% - 1em);
+}
+
+@media screen and (min-width: 40em) {
+
+  .card { flex: 0 1 calc(50% - 1em); }
+
+}
+
+@media screen and (min-width: 60em) {
+
+  .card { flex: 0 1 calc(20% - 1em); }
+
 }

@@ -1,26 +1,3 @@
-@font-face {
-  font-family: 'Merienda';
-  font-weight: 400;
-  src: url(../fonts/merienda-regular-webfont.woff) format('woff'),
-  url(../fonts/merienda-regular-webfont.svg) format('svg'),
-  url(../fonts/Merienda-Regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Merienda';
-  font-weight: 500;
-  src: url(../fonts/merienda-medium-webfont.woff) format('woff'),
-  url(../fonts/merienda-medium-webfont.svg) format('svg'),
-  url(../fonts/Merienda-Medium.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Merienda';
-  font-weight: 700;
-  src: url(../fonts/merienda-bold-webfont.woff) format('woff'),
-  url(../fonts/merienda-bold-webfont.svg) format('svg'),
-  url(../fonts/Merienda-Bold.ttf) format('truetype');
-}
 
 body {
   font-family: 'Merienda', cursive;
@@ -36,11 +13,13 @@ img, embed, object, video, picture {
 p, h1, h2, h3, h4, h5 {
   margin: 0px;
   padding: 0px;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
   text-decoration: none;
   transition: all .5s ease-in-out;
+  font-family: 'Inter', sans-serif;
 }
 
 input, textarea {

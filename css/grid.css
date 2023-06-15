@@ -1,26 +1,10 @@
-/* 
-    CSS Guide 
-
-    1.  General Grid Styles
-        Utility Classes
-    2.  Mobile Grid
-    3.  Tablet Grid
-    4.  Desktop Grid
-    5.  XL Grid
-
- */
-
-
- /* 1. ---General Grid Styles--- */
-
- html {
+html {
   box-sizing: border-box; 
 }
 
 *, *::before, *::after {
   box-sizing: inherit; 
 }
-/* ---Utility Classes--- */
 
 .hidden {
   display: none;
@@ -79,6 +63,7 @@
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: rgb(246, 244, 227);
   /*padding: 0px 15px 0px 15px;*/
 }
 

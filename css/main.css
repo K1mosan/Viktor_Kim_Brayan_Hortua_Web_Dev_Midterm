@@ -293,6 +293,83 @@ section h2, section h3, section p {
   flex: 0 1 calc(100% - 1em);
 }
 
+    /* --- Products page --- */
+    .products img {
+      width: 100%;
+  }
+
+  .products > * {
+      grid-column: 1;
+      grid-row: 1;
+  }
+
+  .products {
+      display: grid;
+      grid-column: span 2;
+      margin-bottom: 1em;
+  }
+
+  
+  .products h3 {
+      background: #e07a0d;;
+      padding: 1em 1.75em;
+      font-size: 1em;
+      font-weight: 300;
+  }
+  
+  .products h3.right {
+      align-self: flex-start;
+      justify-self: start;
+      margin-right: 1em;
+  }
+
+
+
+
+  .header_nav {
+      display: flex;
+      line-height: 30px;
+      align-items: center;
+      gap: 50px;
+      font-weight: bold;
+      list-style: none;
+      text-align: center;
+      font-size: 17px;
+      justify-content: space-evenly;
+    }
+    
+  .header_nav-link {
+      color: #000000;
+    }
+    
+  .header_nav-link {
+      transform: .6s all;
+      position: relative;
+    }
+    
+  .header_nav-link::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #e07a0d;
+      transition: .6s all;
+  }
+    
+  .header_nav-link:hover {
+      color: #e07a0d;
+    }
+    
+  .header_nav-link:hover::before {
+      width: 100%;
+    }
+    
+  .header_logo {
+      margin-left: 150px;
+  }
+
 @media screen and (min-width: 40em) {
 
   .card { flex: 0 1 calc(40% - 1em); }

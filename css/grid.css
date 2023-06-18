@@ -42,6 +42,17 @@ html {
   height: 170px;
 }
 
+.box5 {
+  background-color: rgb(0, 77, 159);
+  color: rgb(27, 27, 27);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 125px;
+}
+
 /* 2. ---Mobile Library Grid Styles--- */
 
 /*---We do not use media queries for mobile or Justin will find us...*/

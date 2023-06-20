@@ -1,6 +1,6 @@
 # Midterm - Orbitz
-We present the first version of our collaborative electro sounds music mixer.
-Set in a party and attractive space with neon colors.
+We present the first version of our collaborative Orbitz website.
+You can find drinks of different flavours. Choose your Favorite!
 
 ## Installation
 There is no installation process required. Simply download the files to your computer.

@@ -5,191 +5,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <title>Brayan - Fanshawe College IDP Midterm HW3 1056</title>
+    <title>Orbitz - Products</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/28f7fdb90a.js" crossorigin="anonymous"></script>
+<link rel=" shortcut icon" href="images/logo_website.png">
 </head>
     <body>
         <h1 class="hidden">HW3 Midterm Scaffold - Products page</h1>
-        <section class="spacer">
-            
-            <header class="grid-con">
-                <div class="col-start-1 col-end-2 m-col-span-3 l-col-span-3 xl-col-span-3">
-                    <img src="images/logo_orbtiz.svg" alt="
-                    SVG Logo Idea">
+            <header class="grid-con spacer">
+                <div class="col-start-1 col-end-3 m-col-span-3 l-col-span-3 xl-col-span-3">
+                    <img id="logo-gif" src="images/Hortua_Brayan_TBA.gif"
+                    alt="Official Gif Logo">
                 </div>
 
-                <div class="mobile col-start-4 col-end-5 m-col-span-5 l-col-span-3 xl-col-span-3">
-                    <img src="images/bars-solid.svg" alt="
-                    Hamburguer Menu Orbitz">
-                </div>
+                <!-- Header Nav Mobile -->
+                    <nav class="mobile col-start-1 col-end-5">
+                        <h2 class="hidden">Main Nav</h2>
+                        <ul class="header-nav-mobile">
+                            <li><a href="index.html" class="header-nav-link">Homepage</a></li>
+                            <li><a href="products.html" class="header-nav-link">Products</a></li>
+                            <li><a href="about.html" class="header-nav-link">About Us</a></li>
+    
+                            <li>
+                                <!-- Cart Shop Icon -->
+                                <a href="#" class="header-nav-link" id="open-cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
 
+
+                <!-- Header Nav Desktop -->
                 <nav class="desktop col-start-4 col-end-5 m-col-span-9 l-col-span-9 xl-col-span-9">
                     <h2 class="hidden">Main Nav</h2>
                     <ul class="header_nav">
-                        <li><a href="index.html" class="header_nav-link">Homepage</a></li>
-                        <li><a href="#" class="header_nav-link">Products</a></li>
-                        <li><a href="#" class="header_nav-link">About Us</a></li>
-                        <li><a href="#" class="header_nav-link">Contact</a></li>
+                        <li><a href="index.html" class="header-nav-link">Homepage</a></li>
+                        <li><a href="products.html" class="header-nav-link">Products</a></li>
+                        <li><a href="about.html" class="header-nav-link">About Us</a></li>
+
+                        <li>
+                            <!-- Cart Shop Icon -->
+                            <a href="#" class="header-nav-link" id="open-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
+                
 
+                <!-- Header Nav Tablet -->
                 <nav class="tablet col-start-4 col-end-5 m-col-span-9 l-col-span-9 xl-col-span-9">
                     <h2 class="hidden">Main Nav</h2>
                     <ul class="header_nav">
-                        <li><a href="index.html" class="header_nav-link">Homepage</a></li>
-                        <li><a href="#" class="header_nav-link">Products</a></li>
-                        <li><a href="#" class="header_nav-link">About Us</a></li>
-                        <li><a href="#" class="header_nav-link">Contact</a></li>
+                        <li><a href="index.html" class="header-nav-link">Homepage</a></li>
+                        <li><a href="#" class="header-nav-link">Products</a></li>
+                        <li><a href="#" class="header-nav-link">About Us</a></li>
+                        <li>
+                            <!-- Cart Shop Icon -->
+                            <a href="#" class="header-nav-link" id="open-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
 
+                <!-- Lightbox Functionality -->
+                <div id="cartLightbox" class="lightbox">
+                    <!-- Content -->
+                    <h2 class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">Locations</h2>
+                    <p>You can visit our physical stores at different points of sale located in London, Ontario (CA).Come and enjoy a refreshing and fun experience. We wait for you</p>
+                    <!-- Close Button Lightbox -->
+                    <button id="close-cart">Close Cart</button>
+                </div>
             </header>
 
-            <section class="grid-con">
+            <main>
                 <h2 class="hidden">Web Site Product Section</h2>
+                <section class="grid-con">
 
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <img src="images/product4.jpg" alt="Product 4">
-                        <h3 class="right">Product 1</h3>
-                    </div>
-                </div>
-                
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <img src="images/product3.jpg" alt="Product 3">
-                        <h3 class="right">Product 2</h3>
-                    </div>
-                </div>
-
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <img src="images/product2.jpg" alt="Product 2">
-                        <h3 class="right">Product 3</h3>
-                    </div>
-                </div>
-
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <img src="images/product1.jpg" alt="Product1">
-                        <h3 class="right">Volcano Premium Edition</h3>
-                    </div>
-                </div>
-
-
-                <div class="col-span-4 m-col-span-6 l-col-start-4 xl-col-span-6">
-                    <div class="products">
-                        <img src="images/bottle_flavours_orbitz.jpg">
-                        <h3 class="right">Product 5</h3>
-                    </div>
-                </div>
-
-
-                <div class="desktop col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">
-                    <section class="grid-con" class="products" id="flavours">
-                        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4">
-                            <h3>Apple Flavour</h3>
-                            <object id="appleflavour" data="images/apple.svg" type="image/svg+xml"></object>
+                    <div id="product-container" class="col-span-4 m-col-span-6 l-col-start-1 l-col-end-5 xl-col-span-6">
+                        <div class="products">
+                            <img id="product-image" src="images/apple.jpg" alt="Product Image">
+                            <h3 class="right">Apple</h3>
                         </div>
-    
-                        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4">
-                            <h3>Banana Flavour</h3>
-                            <object id="bananaflavour" data="images/banana.svg" type="image/svg+xml"></object>
-                        </div>
-    
-                        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4">
-                            <h3>Cherry Flavour</h3>
-                            <object id="cherryflavour" data="images/cherry.svg" type="image/svg+xml"></object>
-                        </div>
-    
-                        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4">
-                            <h3>Grape Flavour</h3>
-                            <object id="grapeflavour" data="images/grape.svg" type="image/svg+xml"></object>
-                        </div>
-    
-                        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4">
-                            <h3>Orange Flavour</h3>
-                            <object id="orangeflavour" data="images/orange.svg" type="image/svg+xml"></object>
-                        </div>
-    
-                        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4">
-                            <h3>Watermelon Flavour</h3>
-                            <object id="watermelonflavour" data="images/watermelon.svg" type="image/svg+xml"></object>
-                            <h3 class="right">Flavour Section</h3>
-                        </div>
-                    </section>	
-                </div>
-
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <picture>
-                            <source media="(min-width:1200px)" srcset="https://placehold.co/377x182">
-                            <source media="(min-width:768px)" srcset="https://placehold.co/355x182">
-                            <source media="(min-width:510px)" srcset="https://placehold.co/333x130">
-                            <img src="https://placehold.co/333x130" alt="Placeholder Image">
-                        </picture>
-                        <h3 class="right">Promotional Img1</h3>
                     </div>
-                </div>
 
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <picture>
-                            <source media="(min-width:1200px)" srcset="https://placehold.co/377x182">
-                            <source media="(min-width:768px)" srcset="https://placehold.co/355x182">
-                            <source media="(min-width:510px)" srcset="https://placehold.co/333x130">
-                            <img src="https://placehold.co/333x130" alt="Placeholder Image">
-                        </picture>
-                        <h3 class="right">Promotional Img2</h3>
+                    
+                    <div class="col-span-4 m-col-start-8 m-col-end-12 l-col-start-7 l-col-end-11">
+                        <p id="paragraph-product-con">
+                            Discover Apple Bubble Drink, a tantalizing fusion of crisp apple flavors and delightful bubbles. With each sip, enjoy the invigorating aroma and refreshing taste of freshly picked apples, while the playful bubbles dance on your tongue. Experience pure delight in this perfect harmony of nature’s sweetness and effervescent joy.
+                        </p>
                     </div>
-                </div>
 
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <picture>
-                            <source media="(min-width:1200px)" srcset="https://placehold.co/377x182">
-                            <source media="(min-width:768px)" srcset="https://placehold.co/355x182">
-                            <source media="(min-width:510px)" srcset="https://placehold.co/333x130">
-                            <img src="https://placehold.co/333x130" alt="Placeholder Image">
-                        </picture>
-                        <h3 class="right">Promotional Img3</h3>
+                        <section id="shop-options" class="col-span-4 m-col-start-4 m-col-end-11">
+                        <h2 class="hidden">Product Selected and Description</h2>
+                            <div>
+                                <span id="price">$14</span>
+                            </div>
+
+                            <div class="option-container">
+                                <button id="increase-button"><i class="fa-solid fa-plus circle-bg"></i></button>
+                                <span id="quantity" class="spacer-add-minus">1</span>
+                                <button id="decrease-button"><i class="fa-solid fa-minus circle-bg"></i></button>
+                            </div>
+
+                            <div>
+                                <button class="add-to-bag-btn">Add to Bag</button>
+                            </div>
+                        </section>
+                    
+                </section>
+
+                <br>
+                <br>
+                    <!-- Recommendations Section -->
+                <section class="grid-con">
+                    <h2 class="hidden">Recommendations Section Product Page</h2>
+                    <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">
+                        <h2 class="spacer recommendations-title">Discover Related Products</h2>
+                        <p class="recommendations-description spacer">
+                            Explore exciting new flavors as you browse. Click on recommendation images for more details and enjoy a personalized shopping experience.
+                        </p>
                     </div>
-                </div>
 
-                <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
-                    <div class="products">
-                        <picture>
-                            <source media="(min-width:1200px)" srcset="https://placehold.co/377x182">
-                            <source media="(min-width:768px)" srcset="https://placehold.co/355x182">
-                            <source media="(min-width:510px)" srcset="https://placehold.co/333x130">
-                            <img src="https://placehold.co/333x130" alt="Placeholder Image">
-                        </picture>
-                        <h3 class="right">Promotional Img4</h3>
-                    </div>
-                </div>
+                        <div class="col-span-4 m-col-span-4">
+                            <div class="products">
+                                <img src="images/blueberry.jpg" alt="Product Bottle Blueberry">
+                                <h3 class="right">Blueberry</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="col-span-4 m-col-span-4">
+                            <div class="products">
+                                <img src="images/grape.jpg" alt="Product Bottle Grape">
+                                <h3 class="right">Grape</h3>
+                            </div>
+                        </div>
 
-                <div class="col-span-4 m-col-span-6 l-col-start-4 xl-col-span-6">
-                    <div class="products">
-                        <picture>
-                            <source media="(min-width:1200px)" srcset="https://placehold.co/377x182">
-                            <source media="(min-width:768px)" srcset="https://placehold.co/355x182">
-                            <source media="(min-width:510px)" srcset="https://placehold.co/333x130">
-                            <img src="https://placehold.co/333x130" alt="Placeholder Image">
-                        </picture>
-                        <h3 class="right">Promotional Img5</h3>
-                    </div>
-                </div>
-            </section>
+                        <div class="col-span-4 m-col-span-4">
+                            <div class="products">
+                                <img src="images/strawberry.jpg" alt="Product Bottle Strawberry">
+                                <h3 class="right">Strawberry</h3>
+                            </div>
+                        </div>
 
-            <footer class="grid-con">
-                <h2 class="hidden">Footer</h2>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box5">
-                    <p>Footer</p>
+
+
+                        <div class="col-span-4 m-col-span-4">
+                            <div class="products">
+                                <img src="images/orange.jpg" alt="Product Bottle Orange">
+                                <h3 class="right">Orange</h3>
+                            </div>
+                        </div>
+
+
+                        <div class="col-span-4 m-col-span-4">
+                            <div class="products">
+                                <img src="images/pineapple.jpg" alt="Product Bottle Pineapple">
+                                <h3 class="right">Pineapple</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-span-4 m-col-span-4">
+                            <div class="products">
+                                <img src="images/apple.jpg" alt="Product Bottle Apple">
+                                <h3 class="right">Apple</h3>
+                            </div>
+                        </div>
+                </section>
+            </main>
+
+            <!-- Footer --> 
+            <footer id="footer-con" class="grid-con">
+                <nav class="col-start-1 m-col-start-1 m-col-end-4">
+                    <ul class="footer-list">
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Connect with us:</a></li>
+                    </ul>
+                </nav>
+        
+                <nav class="col-start-2 m-col-start-4 m-col-end-8">
+                    <ul class="footer-list">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">polar@gmail.com</a></li>
+                    <li><a href="#">+123 456 78 90 00</a></li>
+                    <li><a href="#">+223 444 54 67 68</a></li>
+                    </ul>
+                </nav>
+        
+                <nav class="col-start-3 m-col-start-8 m-col-end-12">
+                    <ul class="footer-list">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Careers</a></li>
+                    </ul>
+                </nav>
+
+                <div class="col-start-4 m-col-start-1 m-col-end-4" id="social-icons">
+                    <i class="fa-brands fa-facebook fa-1x"></i>
+                    <i class="fa-brands fa-twitter fa-1x"></i>
+                    <i class="fa-brands fa-instagram fa-1x"></i>
                 </div>
             </footer>
-        </section>
 
         <script src="js/main.js"></script>
     </body>
